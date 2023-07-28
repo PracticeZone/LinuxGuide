@@ -23,9 +23,11 @@
 - run `reboot` to restart your pc
 
 ## 3. add `reboot` & `poweroff` commands
-
-alias reboot='systemctl reboot'
-alias poweroff='systemctl poweroff'
+- if you facing:
+  - `bash: poweroff: command not found`
+  - `bash: reboot: command not found`
+- run `nano ~/.bashrc` in terminal
+- add these two lines `alias reboot='systemctl reboot'` & `alias poweroff='systemctl poweroff'`
 
   
 ## 4. Installing NodeJS
