@@ -10,7 +10,8 @@
       - `shift + ctrl + v` to paste 
       -  `ctrl + o` to save changes
       -  `ctrl + x`to exit
-## Update & Upgrade the System
+## 2. Update & Upgrade the System
 - run `sudo apt update`
 - after that run `sudo apt upgrade -y`
-- run 'reboot' to restart your pc
+- run `reboot` to restart your pc
+  
