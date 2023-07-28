@@ -2,9 +2,10 @@
 ## Table of Content
 - [1. Give Sudo Privileges to a User](#1-give-sudo-privileges-to-a-user)
 - [2. Update & Upgrade the System](#2-update--upgrade-the-system)
-- [3. Installing NodeJS](#3-installing-nodejs)
-- [4. Installing Flutter](#4-installing-flutter)
-- [5. Installing Android Studio](#5-installing-android-studio)
+- [3. add reboot & poweroff commands](#3-add-reboot--poweroff-commands)
+- [4. Installing NodeJS](#4-installing-nodejs)
+- [5. Installing Flutter](#5-installing-flutter)
+- [6. Installing Android Studio](#6-installing-android-studio)
 
 ## 1. Give Sudo Privileges to a User
 ### 1.1. Switch to Root User
