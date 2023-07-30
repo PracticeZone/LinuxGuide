@@ -57,3 +57,23 @@ visit: https://github.com/nodesource/distributions
   - download it from: https://developer.android.com/studio
   - extarct `android-studio...tar.xz` in `home` directroy or anywhere you want 
   - open terminal in `/android-studio/bin` and run `sh studio.sh`
+
+## Fix small font size on high resolution screens
+  - run `nano ~/.Xresources` to open/create Xresources file
+  - add `Xft.dpi: DPI` to the file, save it and reboot
+  - to calculate `DPI`:
+    -  run this command to get information about your displays
+        ``` shell
+        xrandr | grep -w connected
+        ```
+        output
+        ``` shell
+        eDP-1 connected primary 3000x2000+0+1688 (normal left inverted right x axis y axis) 293mm x 195mm
+        DP-3 connected 3000x1688+0+0 (normal left inverted right x axis y axis) 543mm x 302mm
+        ```
+    
+    - formula dpi= screen_width[px] / screen_width[cm] * 2.54 [cm to inch]
+    - example: dpi = 3000px / 29.3cm * 2.54 = 260.06
+    
+
+
